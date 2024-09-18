@@ -1,0 +1,43 @@
+
+// fun main(){
+//     val dayOfWeeks=3
+//     val dayName=when(dayOfWeeks){
+//         1->"Monday"
+//         2->"Tuesday"
+//         3->"wednesday"
+//         else->"Friday"
+//     }
+//     println(dayName);
+// }
+
+fun main(){
+    val n=30
+    val k=n%2
+    val ty=when(k){
+    1->"Odd"
+    0->"Even"
+    else->"no number"
+    }
+    println(ty)
+
+
+
+when{
+    n%2==0->println("even")
+    n%2==1->println("odd")
+    else->println("no number")
+    
+}
+}
+
+
+
+
+
+
+
+// fun main(){
+//     for(var i in k){
+//         println(i);
+//     }
+// }

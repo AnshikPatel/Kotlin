@@ -1,0 +1,25 @@
+fun main(){
+    var alpha: Array<String> = arrayOf("A","B","C","D","E")
+    alpha.forEach { word -> print("\n"+word)}
+    println("\n using for loop")
+    for(i in alpha){
+        println(" "+i);
+    }
+}
+
+
+
+
+
+
+
+// fun main(){
+//     var i=0
+//     var arra=arrayOf("Hi","Hello",123)
+//     for(i in 0 .. arra.size-1){
+//         println("elements at index $i is "+arra[i])
+//     }
+//     for(i in arra.indices){
+//         println("indices are $i and array are "+arra[i])
+//     }
+// }

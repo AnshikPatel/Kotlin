@@ -1,0 +1,36 @@
+fun main(){
+    var numbers =arrayOf(1,2,3,4,5)
+    var words: Array<String> = arrayOf("Kotlin","java","c++","python")
+    var squares=Array(5){i -> i * i }
+    
+    // edit the array
+    numbers[2]=33
+    
+    //print the single elements of the array
+    println(numbers[2]);
+    
+    // print the full array
+    for(i in numbers)
+    print(" "+i);
+    println();
+    // printing the array with the help of forEach
+    words.forEach { word -> print(" "+word)}
+    
+    
+    println()
+    val size=numbers.size
+    val firstelement=numbers.first()
+    val lastelement=numbers.last()
+    println("First elements: $firstelement")
+    
+    val index=indexOf("kotlin")        ///////////////////////
+    if(numbers.isEmpty()){
+        println("Number array is empty")
+    }
+    else{
+        println("not empty")
+    }
+
+    
+    
+}
