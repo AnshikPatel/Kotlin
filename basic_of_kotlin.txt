@@ -1,0 +1,52 @@
+// fun main()
+// {
+// //     var a = 10;// value not fixed mutable
+// //     val b=10;// value fixed non mutable
+// //     
+// //     var c:Int=30;
+// //     println(c);
+    
+//     //two a,b and display the sum of both var
+//     var a=10;
+//     var b=20;
+// //     var sum=a+b;
+//     println("sum of "+a+" and "+b+" is "+(a+b));
+//     //interpolation method
+//     printf("sum of $a and $b is ${a+b} and $a+$b and ($a+$b)");
+    
+    
+//     // back tick it use for reserved key words
+//     var `try`=50
+//     printf(`try`);
+    
+//     //kotlin is casesensitive 
+    
+    
+//     var o="anshik";
+    
+    
+//     //write a fun inside 
+    
+// }
+​
+​
+​
+​
+// fun abc(){
+//         var a=10;
+//          var b:Int =1000000000;// int value can be upto 10 digits
+//         println(b);
+// }
+// fun main(){
+//     abc();
+// }
+​
+​
+fun main(){
+    println("Lovely\n\tProf\n\t\tuniversity");
+    print("""lovely
+         prof
+                uni""")
+}
+​
+​

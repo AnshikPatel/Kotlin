@@ -1,0 +1,16 @@
+ fun temp(a : Int){
+     println("$a C to F is "+(a+30))
+ }
+ fun cel(a : Int){
+     println("$a F to C is "+(a-30))
+ }
+ fun main(){
+     var k="F"
+     var n=50
+     if(k=="C"){
+         temp(n)
+     }
+     else{
+         cel(n)
+     }
+ }
