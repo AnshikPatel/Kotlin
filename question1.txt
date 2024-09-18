@@ -1,0 +1,22 @@
+ fun main(){
+     var purches:Int=1500; 
+     var discount:Int=0
+     var members:String="no";
+     if(purches>=1000){
+         if(members=="yes"){
+         	println("you get 20% discount")
+         	discount=purches/5
+         }
+         else{
+             println("you will get 10% discount")
+            	discount=purches/10
+         }
+     }else{
+         println("you get 0% discount")
+         discount=0
+     }
+     var amount:Int=purches-discount
+     println("net amount : "+amount)
+    
+    
+ }
